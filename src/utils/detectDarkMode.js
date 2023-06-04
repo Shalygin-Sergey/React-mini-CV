@@ -1,3 +1,4 @@
+// 1. Проверка темной темы на уровне системных настроек
 const detectDarkMode = () => {
   if (
     window.matchMedia &&

@@ -9,8 +9,6 @@ const Project = () => {
   const { id } = useParams();
   let project = id ? projects[id] : null;
 
-  console.log(project);
-
 
   return (
     <main className="section">
