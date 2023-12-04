@@ -23,14 +23,14 @@ const projects = [
     skills: 'JavaScript, Async/Promise, DOM/BOM, HTML, CSS',
     img: project01,
     imgBig: project01Big,
-    githubLink: 'https://github.com/Shalygin-Sergey/rss-agregator'
+    githubLink: 'https://frontend-project-11-gray-delta.vercel.app/'
   },
   {
     title: 'Угадай имя - виселица',
     skills: 'Vue3, TypeScript, JavaScript, HTML, CSS',
     img: project02,
     imgBig: project02Big,
-    githubLink: 'https://github.com/Shalygin-Sergey/game-hangman'
+    githubLink: 'https://hangman-orcin.vercel.app/'
   },
   {
     title: 'Video portal',

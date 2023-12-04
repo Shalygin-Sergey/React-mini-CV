@@ -25,7 +25,7 @@ const Navbar = () => {
               <NavLink to="/" className={({ isActive }) => {
                 return isActive ? activeLink : normalLink
               }}>
-                Home
+                Главная
               </NavLink>
             </li>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
               <NavLink to="/projects" className={({ isActive }) => {
                 return isActive ? activeLink : normalLink
               }}>
-                Projects
+                Проекты
               </NavLink>
 
             </li>
@@ -43,7 +43,7 @@ const Navbar = () => {
               <NavLink to="/contacts" className={({ isActive }) => {
                 return isActive ? activeLink : normalLink
               }}>
-                Contacts
+                Контакты
               </NavLink>
 
             </li>
