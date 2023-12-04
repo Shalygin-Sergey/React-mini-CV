@@ -1,19 +1,21 @@
 import React from 'react';
 import './style.css';
 
+import CV from './../../helpers/CV.pdf';
+
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header__wrapper">
         <h1 className="header__title">
-          <strong>Hi, my name is <em>Sergey</em></strong><br />
-          a frontend developer
+          <strong><em>Сергей Шалыгин</em></strong><br />
+          frontend-разработчик
         </h1>
         <div className="header__text">
-          <p>with passion for learning and creating.</p>
+          <p></p>
         </div>
-        <a href="#!" className="btn">Download CV</a>
+        <a href={CV} download={CV} className="btn">Скачать CV</a>
       </div>
     </header>
   );

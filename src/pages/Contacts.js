@@ -10,15 +10,15 @@ const Contacts = () => {
             <p>Moscow</p>
           </li>
           <li className="content-list__item">
-            <h2 className="title-2">Telegram / WhatsApp</h2>
-            <p><a href="tel:+79051234567">+7 (905) 123-45-67</a></p>
+            <h2 className="title-2">Telegram</h2>
+            <p><a href="tel:+79301196328">+7 (930) 119 63 28</a></p>
+            <p><a href="https://t.me/<serjjs>">Telegram</a></p>
           </li>
           <li className="content-list__item">
             <h2 className="title-2">Email</h2>
-            <p><a href="mailto:webdev@protonmail.com">webdev@protonmail.com</a></p>
+            <p><a href="mailto:shalygin.javascript@gmail.com">shalygin.javascript@gmail.com</a></p>
           </li>
         </ul>
-
       </div>
     </main>
   );

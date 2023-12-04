@@ -4,8 +4,6 @@ import BtnDarkMode from './../buttonDarkMode/BtnDarkMode';
 
 import './style.css';
 
-
-
 const Navbar = () => {
 
   const activeLink = 'nav-list__link nav-list__link--active';
@@ -16,7 +14,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-row">
           <NavLink to="/" className="logo">
-            <strong>Freelancer</strong> portfolio
+            <strong>&lt; Portfolio &gt;</strong>
           </NavLink>
 
           <BtnDarkMode />

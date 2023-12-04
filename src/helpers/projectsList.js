@@ -19,18 +19,18 @@ import project06Big from './../img/projects/06-big.jpg';
 
 const projects = [
   {
-    title: 'Gaming streaming portal',
-    skills: 'React, Node.js, MongoDB',
+    title: 'RSS-агрегатор',
+    skills: 'JavaScript, Async/Promise, DOM/BOM, HTML, CSS',
     img: project01,
     imgBig: project01Big,
-    githubLink: 'https://github.com'
+    githubLink: 'https://github.com/Shalygin-Sergey/rss-agregator'
   },
   {
-    title: 'Video service',
-    skills: 'React, Node.js, Redux',
+    title: 'Угадай имя - виселица',
+    skills: 'Vue3, TypeScript, JavaScript, HTML, CSS',
     img: project02,
     imgBig: project02Big,
-    githubLink: 'https://github.com'
+    githubLink: 'https://github.com/Shalygin-Sergey/game-hangman'
   },
   {
     title: 'Video portal',
